@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=EB+Garamond&family=Lato&family=Lora&family=Merienda:wght@400;700&family=Montserrat&family=Noto+Sans+NKo+Unjoined&family=Noto+Sans+Vithkuqi&family=Poppins:wght@400;600&family=REM:wght@300;400;500&family=Rethink+Sans&family=Roboto+Slab&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar sec starts */
+
+.navbar-nav button {
+    font-size: 15px;
+    border: 2px solid #077d9d;
+    border-radius: 7px;
+    color: #077d9d;
+    height: 30px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav button:hover {
+    background-color: #077d9d !important;
+    color: white;
+}
+
+.inquire h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inquire h6 {
+    font-size: 18px;
+    color: #077d9d;
+}
+
+
+/* navbar sec ends */
+
+
+/* 1stcontainer sec starts */
+
+.firstContainer {
+    background: url(./images/genius-coder-programme.jpg) no-repeat;
+    height: 43vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstContainer .boxOne {
+    padding-top: 70px;
+    padding-left: 220px;
+}
+
+.firstContainer .boxOne h2 {
+    font-size: 60px;
+    font-weight: 800;
+    border-left: 3px solid #077d9d;
+}
+
+.firstContainer .boxOne p {
+    font-size: 22px;
+}
+
+/* 1stcontainer sec ends */
+
+
+/* secondContainer sec starts */
+
+.secondContainer .words {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.secondContainer .secondBttn button {
+    padding: 15px 150px;
+    border: 2px solid #077d9d;
+    border-radius: 6px;
+    color: #077d9d;
+    font-weight: bold;
+}
+
+.secondContainer .secondBttn button:hover {
+    background-color: #077d9d !important;
+    color: white;
+}
+
+/* secondContainer sec ends */
+
+/* 3rd container sec starts */
+
+.thirdContainer h3 {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.thirdContainer p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* 3rd container sec ends */
+
+
+/* 4th container sec starts */
+
+.cardContainer .cards {
+    gap: 2rem;
+}
+
+.cardContainer .card1 {
+    background-color: #0094b9 !important;
+    border-radius: 10px;
+}
+
+.card1 .header i {
+    background-color: #80c9dc !important;
+}
+
+.card1 .cardBody i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #80c9dc;
+}
+
+.card1 .body2 .p1 {
+    padding-right: 18px;
+}
+
+.card1 .body2 .p2 {
+    padding-right: 14px;
+}
+
+.cardContainer .card2 {
+    background-color: #eeb834 !important;
+    border-radius: 10px;
+}
+
+.card2 .header i {
+    background-color: #f6db9a !important;
+}
+
+.card2 .cardBody i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f6db9a;
+}
+
+.card2 .body1 .p3 {
+    padding-right: 9px;
+}
+
+.card2 .body2 .p3 {
+    padding-left: 7px;
+}
+
+.cardContainer .card3 {
+    background-color: #222222 !important;
+    border-radius: 10px;
+}
+
+.card3 .header i {
+    background-color: #919191 !important;
+}
+
+.card3 .cardBody i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #919191;
+}
+
+.card3 .body1 .p1 {
+    padding-left: 10px;
+}
+
+.card3 .body2 .p3 {
+    padding-left: 10px;
+}
+
+.cardContainer .cards .header i {
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 50%;
+    background-color: #077d9d;
+}
+
+/* 4th container sec ends */
+
+/* 5th container sec starts */
+
+.fivethContainer {
+    /* background: url(./images/b5d78377e69b160ecc9d89ef7fe67a1a.jpeg) no-repeat; */
+    background: url(./images/virtual-reality-courses.jpg) no-repeat;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.fivethContainer h3 {
+    font-weight: 600;
+}
+
+.fivethContainer h6 {
+    color: #d5a637;
+    padding: 0 400px 0 400px;
+    font-weight: 400;
+}
+
+.fivethContainer p {
+    padding: 0 300px 0 300px;
+    font-size: 28px;
+}
+
+/* 5th container sec ends */
+
+
+/* 6th container sec starts */
+
+
+.sixthContainer h4 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0 300px 0 300px;
+}
+
+.sixthContainer .p1 {
+    font-size: 22px;
+}
+
+.sixthContainer p {
+    font-size: 19px;
+}
+
+.sixthContainer .sixthBttn button {
+    padding: 15px 150px;
+    border: 2px solid #077d9d;
+    border-radius: 6px;
+    background-color: white;
+    color: #077d9d;
+    font-weight: bold;
+}
+
+.sixthContainer .sixthBttn button:hover {
+    background-color: #077d9d !important;
+    color: white;
+}
+
+/* 6th container sec ends */
+
+
+/* 7th sec starts */
+
+.seventhContainer {
+    background: url(./images/b5d78377e69b160ecc9d89ef7fe67a1a.jpeg) no-repeat;
+    height: 163vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.seventhBox h4 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.seventhBox h5 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.seventhBox p {
+    font-size: 25px;
+    /* font-weight: normal; */
+    padding: 0 350px 0 350px;
+}
+
+.subBoxes {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 2rem;
+}
+
+.subBoxes .subBox {
+    height: 40vh;
+    border: 2px solid #d5a637;
+    border-radius: 5px;
+}
+
+.subBox:hover {
+    transform: scale(1.1);
+    /* transition: 2s; */
+}
+
+.subBoxes .body1 img {
+    border-radius: 13px;
+}
+
+.subBoxes h4 {
+    height: 20%;
+    font-size: 20px;
+}
+
+/* 7th sec ends */
+
+
+/* 8th sec starts */
+
+.eigthContainer h5 {
+    font-size: 35px;
+    padding: 0 380px 0 380px;
+}
+
+.eigthContainer p {
+    font-size: 19px;
+    padding: 0 380px 0 380px;
+}
+
+.eigthContainer img {
+    width: 45%;
+}
+
+.eigthContainer h4 {
+    font-size: 28px;
+}
+
+.eigthBttn button {
+    padding: 15px 150px;
+    border: 2px solid #172b4d;
+    border-radius: 6px;
+    color: #172b4d;
+    font-weight: bold;
+}
+
+.eigthBttn button:hover {
+    background-color: #172b4d !important;
+    color: white;
+}
+
+.eigthBttn1 button {
+    padding: 15px 150px;
+    border: 2px solid #077d9d;
+    border-radius: 6px;
+    color: #077d9d;
+    font-weight: bold;
+}
+
+.eigthBttn1 button:hover {
+    background-color: #077d9d !important;
+    color: white;
+}
+
+/* 8th sec ends */
+
+
+/* 9th  sec starts */
+
+.footerContainer img {
+    width: 55%;
+}
+
+.footerContainer .footer1 {
+    font-size: 18px;
+    color: #4b5159;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #0c6981;
+}
+
+.footer1 p i {
+    color: #4b5159;
+}
+
+.footerContainer .footer2  {
+    font-size: 18px;
+}
+
+.footer2  a {
+    text-decoration: none;
+    color: #0a748f;
+}
+
+.footerContainer .footer2 h5 {
+    font-size: 25px;
+    color: #4b5159;
+}
+
+.footerContainer .footer3 {
+    padding-left: 120px;
+}
+
+.footer3 p {
+    color: #4b5159;
+    font-size: 28px;
+}
+
+.footer3 .icon1 {
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #3b5998;
+    color: #ffffff;
+    font-size: 29px;
+}
+
+.footer3 .icon2 {
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #c4302b;
+    color: #ffffff;
+    font-size: 29px;
+}
+
+.footer3 .icon3 {
+    padding: 22px;
+    border-radius: 50%;
+    background-color: #3b7e62;
+    color: #ffffff;
+    font-size: 29px;
+}
+
+.footer3 button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: #3b7e62;
+    border: 2px solid #3b7e62;
+    font-weight: bolder;
+}
+
+.footer3 .chatBttn:hover {
+    background-color: #3b7e62 !important;
+    color: white;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: #4b5159;
+}
